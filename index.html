@@ -56,15 +56,7 @@
                         </div>
                       </div>
                       <!-- Utilities (Search, Wishlist) -->
-                      <div class="header-utilities">
-                        <button class="utility-icon-btn" onclick="routeTo('listing')" title="Search products">
-                          <i class="fa-solid fa-magnifying-glass"></i>
-                        </button>
-                        <button class="utility-icon-btn" onclick="routeTo('wishlist')" title="View Wishlist" style="display: none !important;">
-                          <i class="fa-solid fa-heart"></i>
-                          <span class="utility-badge wishlist-counter-badge">0</span>
-                        </button>
-                        
+
                         <!-- Mobile Hamburger Button -->
                         <button class="utility-icon-btn hamburger-btn" id="mobile-menu-toggle" onclick="openMobileNav()">
                           <i class="fa-solid fa-bars-staggered" style="pointer-events: none;"></i>
@@ -202,8 +194,11 @@
                       <div class="excellence-right">
                         <span class="section-tagline" style="text-align: left; display: inline-block;">Our Story</span>
                         <h2 class="excellence-right-title">Crafting Comfort & Elegance Since 1996</h2>
-                        <p class="excellence-right-desc">Durga Furniture has been a landmark of quality in Coimbatore. Founded in 1996 as a small wooden furniture workshop, we have grown into one of Coimbatore's premier manufacturers of luxury home wooden furniture and industrial steel furniture.</p>
-                        <p class="excellence-right-desc">Every piece is designed to harmonize aesthetics, durability, and ergonomic support. Our state-of-the-art manufacturing factory utilizes seasonal treatment processes to make sure our wood lasts generation after generation.</p>
+                        <h3 style="margin-bottom: 12px; font-weight: 700; font-size: 18px;">Avinashi Road's Premier Furniture Pioneer</h3>
+                        <p class="excellence-right-desc" style="margin-bottom: 20px;">Founded in Coimbatore in 1996, Durga Furniture has set the standard for premium residential and commercial furniture. Operating our own integrated steel seasoning and steel tube fabrication factories, we deliver highest durability directly to home owners and commercial offices.</p>
+                        
+                        <h4 style="margin-top: 16px; margin-bottom: 10px; font-weight: 700; font-size: 16px;">Sustainable Teak Seasoning & Design Process</h4>
+                        <p class="excellence-right-desc" style="margin-bottom: 24px;">We utilize state of the art wood kiln seasoning chambers to bring moisture levels down to 8-12%, preventing splits and termite infestations. Our steel collection utilizes high-grade structural alloys treated with zinc phosphate coating layers to resist moisture oxidation.</p>
                         <div class="excellence-stats">
                           <div>
                             <div class="stat-box-title">10K+</div>
@@ -227,12 +222,18 @@
                     </div>
                     <div class="google-reviews-summary">
                       <div class="google-rating-badge">
-                        <div class="google-stars">★★★★★</div>
-                        <div class="google-rating-score">4.9</div>
-                        <p>Based on 256 Google reviews</p>
+                        <div class="google-stars" style="display: flex; justify-content: center; gap: 4px; letter-spacing: normal;">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="google-rating-score">4.5</div>
+                        <p>Based on 106+ reviews</p>
                       </div>
                       <div class="google-review-cta" style="margin-top: 12px;">
-                        <a href="tel:+916369088233" class="btn-gold" style="display: inline-block; padding: 10px 20px; border-radius: 999px; text-decoration: none;">Call Now</a>
+                        <a href="https://share.google/1yR1Ed260bMZCnOKG" target="_blank" rel="noopener noreferrer" class="btn-gold" style="display: inline-block; padding: 16px 36px; border-radius: 999px; text-decoration: none; font-size: 16px; font-weight: bold; text-transform: uppercase; letter-spacing: 0.5px;">View Google Reviews</a>
                       </div>
                     </div>
                   </div>
@@ -332,7 +333,7 @@
                             <div class="contact-detail-icon"><i class="fa-solid fa-phone"></i></div>
                             <div class="contact-detail-text">
                               <strong>Call Enquiry Support</strong>
-                              <span>+91 63690 88233 / +91 422 254879</span>
+                              <span>+91 63690 88233 / +91 98422 66727</span>
                             </div>
                           </div>
                           <div class="contact-detail-item">
@@ -345,7 +346,7 @@
                         </div>
                       </div>
                       <div>
-                        <h3 class="contact-title-small" style="margin-left: 10px;">Send Us a Message</h3>
+                        <h3 class="contact-title-small" style="margin-left: 10px;">Enquiry Form</h3>
                         <form class="contact-form" onsubmit="event.preventDefault(); showToast('Enquiry Sent! Our team will call you shortly.'); this.reset();">
                           <div class="form-row-2">
                             <div class="form-group">
@@ -549,7 +550,7 @@
                   <div style="max-width: 800px; margin: 0 auto;">
                     <img src="durga_about.jpeg" alt="Durga Showroom" style="width: 100%; height: 320px; object-fit: cover; border-radius: var(--border-radius-md); margin-bottom: 24px; border: 1px solid var(--color-beige-border);">
                     <h3 style="margin-bottom: 14px;">Vilankurichi Road's Premier Furniture Pioneer</h3>
-                    <p style="color: var(--color-text-muted); margin-bottom: 16px;">Founded in Coimbatore in 1996, Durga Furniture has set the standard for premium residential and commercial furniture. Operating our own integrated wooden seasoning and steel tube fabrication factories, we deliver highest durability directly to home owners and commercial offices.</p>
+                    <p style="color: var(--color-text-muted); margin-bottom: 16px;">Founded in Coimbatore in 1996, Durga Furniture has set the standard for premium residential and commercial furniture. Operating our own integrated steel seasoning and steel tube fabrication factories, we deliver highest durability directly to home owners and commercial offices.</p>
                     
                     <h4 style="margin-top: 24px; margin-bottom: 12px; font-weight: 700;">Sustainable Teak Seasoning & Design Process</h4>
                     <p style="color: var(--color-text-muted); margin-bottom: 16px;">We utilize state of the art wood kiln seasoning chambers to bring moisture levels down to 8-12%, preventing splits and termite infestations. Our steel collection utilizes high-grade structural alloys treated with zinc phosphate coating layers to resist moisture oxidation.</p>
@@ -595,7 +596,7 @@
                           <div class="contact-detail-icon"><i class="fa-solid fa-phone-volume"></i></div>
                           <div class="contact-detail-text">
                             <strong>Instant Phone Connect</strong>
-                            <span>+91 63690 88233 / +91 422 254879</span>
+                            <span>+91 63690 88233 / +91 98422 66727</span>
                           </div>
                         </div>
                       </div>
@@ -764,20 +765,12 @@
                     <div>
                       <h4 class="footer-widget-title">Categories</h4>
                       <ul class="footer-links-list">
-                        <li class="footer-link-item"><a onclick="appState.filters.categories=['Steel Furniture']; syncFilterCheckboxes(); routeTo('listing');">Steel Cabinets</a></li>
-                        <li class="footer-link-item"><a onclick="appState.filters.categories=['Wooden Furniture']; syncFilterCheckboxes(); routeTo('listing');">Teak Wood Sofas</a></li>
-                        <li class="footer-link-item"><a onclick="appState.filters.categories=['Wooden Furniture']; syncFilterCheckboxes(); routeTo('listing');">Dining Table Sets</a></li>
-                        <li class="footer-link-item"><a onclick="appState.filters.categories=['Other Furniture']; syncFilterCheckboxes(); routeTo('listing');">Office Chairs</a></li>
+                        <li class="footer-link-item"><a onclick="appState.filters.categories=['Steel Furniture']; syncFilterCheckboxes(); routeTo('listing');">Steel Furniture</a></li>
+                        <li class="footer-link-item"><a onclick="appState.filters.categories=['Wooden Furniture']; syncFilterCheckboxes(); routeTo('listing');">Wood Furniture</a></li>
+                        <li class="footer-link-item"><a onclick="appState.filters.categories=['Other Furniture']; syncFilterCheckboxes(); routeTo('listing');">Others</a></li>
                       </ul>
                     </div>
-                    <div>
-                      <h4 class="footer-widget-title">Newsletter</h4>
-                      <p class="footer-newsletter-text">Subscribe to receive custom design ideas and direct factory discount sales alerts.</p>
-                      <form class="footer-newsletter-form" onsubmit="event.preventDefault(); showToast('Subscribed! Thank you.'); this.reset();">
-                        <input type="email" class="footer-newsletter-input" placeholder="Your Email Address" required>
-                        <button type="submit" class="footer-newsletter-btn"><i class="fa-solid fa-paper-plane"></i></button>
-                      </form>
-                    </div>
+
                   </div>
                   <!-- Social Media Bar -->
                   <div class="footer-social-bar">
